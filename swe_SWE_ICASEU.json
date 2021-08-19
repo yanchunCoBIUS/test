@@ -1,0 +1,38 @@
+{
+                "Code"      : "SWS",
+                "Name"      : "swe_SWE",
+                "Tag"       : "sv_SE",
+                "Regions"   : "ICASEU",
+                "TtsOnly"   : false,
+                "navi_support" : true,
+                "type"      : "NLU",
+                "resultCorrection" : true,
+                "lmGuarded" : true,
+                "audio_based_classifier_model": true,
+                "plusoos": true,
+                "wide"      : false,
+                "ctx_dir"   : "CTX_DEST_PATH",
+                "sem3_dir"  : "SEM3_DEST_PATH",
+                "grm_common_dir" : "GRM_COMMON_SRC_PATH",
+                "grm_market_dir" : "GRM_MARKET_SRC_PATH",
+                "grm_wide_dir" : "GRM_WIDE_SRC_PATH",
+                "acmod"     : "acmod6_6000_sws_gen_car_f16_v1_0_0.dat",
+                "clc"       : "clc_sws_mpthreevadml_v6_5_000000.dat",
+                "supported_apps" : ["APP_OneNLU", "APP_VWBNF", "APP_MediaEntities", "APP_NativeApps", "APP_Picklist", "APP_OneNLU_UserAbroad", "APP_GTS", "APP_VWBNF_UserAbroad"],
+                "bnf_apps"    : ["VWBNF_BASE_NAME", "VWBNF_NAVI_BASE_NAME", "MEDIAENTITIES_BASE_NAME", "NATIVEAPPS_BASE_NAME", "PICKLIST_BASE_NAME"],
+                "supported_num_apps" : ["AM_FREQUENCIES_APP_NAME", "CD_TRACKS_APP_NAME", "FM_FREQUENCIES_APP_NAME",
+                    "GENERIC_NUMBERS_APP_NAME", "HOUSE_NUMBERS_APP_NAME", "PHONE_NUMBER_APP_NAME", "ZIP_CODES_APP_NAME"],
+                "lists"     : [],
+                "data"         : {
+                    "asr" : {
+                        "name" : "swe_SWE",
+                        "group" : "nlu",
+                        "version" : "8.15.0.4_CL_20210817_162046"
+                    },
+                    "tts" : {
+                        "name" : "swe_SWE",
+                        "group" : "tts",
+                        "version" : "icas1.0_20210423_113437"
+                    }
+                }
+            },
